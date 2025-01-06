@@ -1,4 +1,4 @@
-#include "../headers/jaxon/JaxonFace.h"
+#include "JaxonFace.h"
 #include <stdexcept>
 
 // Constructor with position arguments
