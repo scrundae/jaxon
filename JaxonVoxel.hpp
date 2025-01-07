@@ -4,12 +4,12 @@ class JaxonVoxel {
 private:
     
 public:
-    Model topm = LoadModel("res/JVX-TOP.obj");
-    Model btm = LoadModel("res/JVX-BTM.obj");
-    Model lft = LoadModel("res/JVX-LFT.obj");
-    Model rgt = LoadModel("res/JVX-RGT.obj");
-    Model frt = LoadModel("res/JVX-FRT.obj");
-    Model bck = LoadModel("res/JVX-BCK.obj");
+    Model topm = LoadModel("jaxon/res/JVX-TOP.obj");
+    Model btm = LoadModel("jaxon/res/JVX-BTM.obj");
+    Model lft = LoadModel("jaxon/res/JVX-LFT.obj");
+    Model rgt = LoadModel("jaxon/res/JVX-RGT.obj");
+    Model frt = LoadModel("jaxon/res/JVX-FRT.obj");
+    Model bck = LoadModel("jaxon/res/JVX-BCK.obj");
     Vector3 pos;
     bool RendTop;
     bool RendBottom;
